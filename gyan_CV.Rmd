@@ -1,0 +1,543 @@
+---
+title: "Gyan's resume"
+author: Gyan Prakash Mishra
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+    css:
+    - resume
+    - https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  background: white;
+}
+
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --root-font-size: 15.5pt;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+
+body{
+  font-family: "Arial", sans-serif;
+  font-size:"2px";
+}
+```
+
+
+
+Aside
+================================================================================
+
+<center>
+  ![Gyan Prakash Misrhra](https://avatars.githubusercontent.com/u/17849272?s=400&u=e6b378637b12c757f824293b2c64f9e26141f58d&v=4){width=80% style='border-radius: 50%;'}
+</center>
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> j12mishra@gmail.com
+- <i class="fa fa-twitter"></i> [@gprakash047](https://twitter.com/gprakash047)
+- <i class="fa fa-github"></i> [github.com/gyanmishra](https://github.com/gyanmishra)
+- <i class="fa fa-phone"></i> +91 8658481207
+- <a href="[0000-0002-8975-0371](https://orcid.org/0000-0002-8975-0371)">
+- <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"/> [0000-0002-8975-0371](https://orcid.org/0000-0002-8975-0371)
+- <i class="ai ai-google-scholar-square"></i> [Google Scholar](https://scholar.google.com/citations?user=04bOmiIAAAAJ&hl=en)
+</a>
+
+
+
+--------------------------------------------------------------------------------
+
+- Strong writing and oral communication skill.
+
+- Team player</br>(Believe in collaborative work for common goal)
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R  
+package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Gyan Prakash Mishra {#title}
+--------------------------------------------------------------------------------
+<font size="2"><span style="color:blue">I have completed my PhD and worked in the area of computational biology. During my PhD I have studied the role of co-repressor protein NCoR1 in epigenetic regulation of gene expression controlling immune responses in dendritic cells, [BedSect tool](https://imgsb.org/bedsect/) tool development, SARS-CoV-2 genome study and various other collaborative projects on genomics.</span></font>
+
+\
+\
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Doctor of Philosophy(PhD)\ 
+<span style="color:blue">Institute of Life Sciences, Department of Biotechnology and\
+School of Biotechnology, KIIT University</span>
+
+Bhubaneswar, India
+
+2017 - 2022
+
+### M.S (Pharmacoinformatics)
+<span style="color:blue">National Institute of Pharmaceutical Education and Research (NIPER)</span>
+
+Kolkata, India
+
+2013 - 2015 
+
+### Bachelor of Pharmacy (B.Pharm)
+<span style="color:blue">Manipal College of Pharmaceutical Sciences, MAHE</span>
+
+Manipal, India
+
+2009 - 2013 
+
+Research Experience {data-icon=address-book}
+--------------------------------------------------------------------------------
+### Junior Research Fellow 
+DST INDO-SWISS Project
+
+Bhubaneswar, India
+
+2015 - 2017
+
+<span style="color:blue">Immunogenomics and Systems Biology Lab, Institute of Life Sciences</span>
+
+
+Bioinformatics tool {data-icon=desktop}
+--------------------------------------------------------------------------------
+### BedSect (https://imgsb.org/bedsect/)
+- <span style="color:blue">An integrated web server application to perform intersection, visualization and functional annotation of genomic regions from multiple datasets.</span>
+- <span style="color:blue">This tool is being widely used worldwide by the researchers wroking in the area of genomics [(Link)](https://clustrmaps.com/site/1bast)</span>
+
+Online
+
+\
+\
+\
+
+
+
+Technical Skills {data-icon=cogs}
+--------------------------------------------------------------------------------
+### **Bash, Perl, R and Python**
+
+N/A
+
+N/A
+
+### **Next generation sequencing data analysis**
+
+N/A
+
+N/A
+
+:::concise
+- **RNA-seq :**\
+<span style="color:blue">Differential gene expression (e.g DESeq2, edgeR)\
+Feature selection (PCA)</span>
+- **ChIP-seq (ATAC-seq, H3K27ac, RNA-pol II) :** \
+<span style="color:blue">Normalization, peak calling (HOMER, MACS2)\
+Differential enrichment analysis (DiffBind)\
+Annotation (ChipSeeker), Visualization (IGV, deeptool),\
+Motif identification (HOMER, MEME)</span>
+- **Multi-omics data integration**\
+- **Gene co-expression network analysis**\
+- **Gene set enrichment analysis**
+- **RNA-editing analysis**
+\
+\
+\
+\
+:::
+
+
+### **R skills :**
+N/A
+
+N/A
+
+:::concise
+- **Data wrangling  :** <span style="color:blue">dplyr, tidyr, purrr, tibble.</span>   
+- **Data visualization :** <span style="color:blue">ggplot2, complexheatmap etc.</span> 
+- **Statistical analysis :**\
+        - <span style="color:blue">parametric and non-parametric test</span>\
+        - <span style="color:blue">Fisher and Hypergeometric test</span>
+- **Clustering using different methods**\
+    <span style="color:blue"> (e.g correlation, euclidean distance etc.)</span>
+- **Principal component analysis :** <span style="color:blue">prcomp</span>
+- **R markdown**
+- **Shiny app**
+:::
+
+### Git version control
+
+N/A
+
+N/A
+
+### HPC using SGE scripting. GNU Parallel, Conda
+
+N/A
+
+N/A
+
+### Workflow management : snakemake
+
+N/A
+
+N/A
+
+### Baisc understanding of wet lab technique such as
+
+- <span style="color:blue">ChIP</span>
+- <span style="color:blue">RT-qPCR, Western</span>
+- <span style="color:blue">Flow cytometry</span>
+
+N/A
+
+
+### Understanding of
+- <span style="color:blue">Immunology</span>
+- <span style="color:blue">Transcriptional regulation of gene expression</span>
+- <span style="color:blue">Epigenetics</span>
+
+N/A
+
+\
+
+Honors and awards {data-icon=medal}
+--------------------------------------------------------------------------------
+
+### Graduate Pharmacy Aptitute Test (GPAT)
+
+<span style="color:blue">National Level Entrance Examination for entry into M. Pharma Programme</span>
+
+India
+
+2013
+
+### NIPER Joint Entrance Exam (NIPER-JEE)
+
+<span style="color:blue">Scholarship to study M.S (Pharm) at NIPER, Kolkata</span>
+
+India  
+
+2013
+
+### Introduction to R (edX 1.1)
+
+<span style="color:blue">DataCamp ([Certificate](https://s3.amazonaws.com/verify.edx.org/downloads/e8e86233de10481d84152cf9332cc0fc/Certificate.pdf))</span>
+
+Online  
+
+2015
+
+### Bioinformatics National Certification (DBT-BINC) fellowship
+
+<span style="color:blue">5 year fellowship from Department of Biotechnology, Govt. of India to pursue PhD degree</span>
+
+India  
+
+2017
+
+### Nextgen Genomics, Biology, Bioinformatics and Technologies Conference (NGBT) Travel award
+
+<span style="color:blue">SciGenom Research Foundation (SGRF)</span>
+
+Mumbai, India
+
+2019
+
+### Outstanding poster presentation 
+
+<span style="color:blue">EMBOPress- molecular Systems biology @ NGBT-2019</span>
+
+Mumbai, India
+
+2019
+
+### Travel grant and Oral presentation at EAPS
+
+<span style="color:blue">EMBL Australia Postgraduate Symposium (EAPS)<span>
+
+Melbourne, Australia
+
+2019
+
+
+
+[Selected Publications] </br>(\* for equal contribution) {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Epigenomics of conventional type-I dendritic cells depicted preferential control of TLR9 versus TLR3 response by NCoR1 through differential IRF3 activation
+
+
+<span style="color:blue">*Cellular and Molecular Life Sciences* 79, 429 (2022). doi: 10.1007/s00018-022-04424-w</span>
+
+N/A
+
+2022
+
+<span style="color:blue">**Mishra GP\*** , Jha A\*, Ahad A, Sen K, Sen A, Podder S, et al.</span> 
+
+### Spatio-temporal dynamics of intra-host variability in SARS-CoV-2 genomes. 
+
+<span style="color:blue">*Nucleic Acids Research*. 2022;50:1551–61. doi: 10.1093/nar/gkab1297</span>
+
+N/A
+
+2022
+
+<span style="color:blue">Pathak AK\*, **Mishra GP\***, Uppili B, Walia S, Fatihi S, Abbas T, et al.</span>
+
+### NCoR1 and SMRT fine-tune inflammatory versus tolerogenic balance in dendritic cells by differentially regulating STAT3 signaling.
+
+<span style="color:blue">*Frontiers in Immunology* 2022 Dec.  doi: 10.3389/fimmu.2022.9107056</span>
+
+N/A
+
+2022 
+
+<span style="color:blue">Jha A\*, Ahad A\*, **Mishra GP\*** , Sen K, Smita S, Minz AP, et al.</span>
+
+### BedSect: An Integrated Web Server Application to Perform Intersection, Visualization, and Functional Annotation of Genomic Regions From Multiple Datasets. 
+
+<span style="color:blue">*Frontiers in Genetics*.  2020;11:3. doi: 10.3389/fgene.2020.00003</span>
+
+N/A
+
+2020
+
+<span style="color:blue">**Mishra GP\*** , Ghosh A\*, Jha A, Raghav SK.</span>
+
+### NCoR1 fine‐tunes type‐I IFN response in cDC1 dendritic cells by directly regulating Myd88‐IRF7 axis under TLR9.
+ 
+<span style="color:blue">*European Journal of Immunology*. 2020;50:1959–75. doi: 10.1002/eji.202048566</span>
+
+N/A
+
+2020
+
+<span style="color:blue">Ahad A, Smita S\* , **Mishra GP\*** , Biswas VK\*, Sen K, Gupta B, et al.</span>
+
+### Identification and Characterization of Circular Intronic RNAs Derived from Insulin Gene
+
+<span style="color:blue">*International Journal of Molecular Sciences*. 2020;21:4302. doi: 10.3390/ijms21124302</span>
+
+N/A
+
+2020
+
+<span style="color:blue">Das D, Das A, Sahu M, Mishra SS, Khan S, Bejugam PR, Rout PK, Das A, Bano S, **Mishra GP** et al.</span>
+
+### NCoR1: Putting the Brakes on the Dendritic Cell Immune Tolerance. 
+
+<span style="color:blue">*iScience*. 2019;19:996–1011. doi: 10.1016/j.isci.2019.08.024</span>
+
+N/A
+
+2019
+
+<span style="color:blue">Ahad A, Stevanin M, Smita S, **Mishra GP**, Gupta D, Waszak S, et al.</span> 
+
+###  EumicrobeDBLite: a lightweight genomic resource and analytic platform for draft oomycete genomes.
+
+<span style="color:blue">*Molecular Plant Pathology*. 2018;19:227–37. doi: 10.1111/mpp.12505</span>
+
+N/A
+
+2018
+
+<span style="color:blue">Panda A, Sen D, Ghosh A, Gupta A, C. MM, **Mishra GP**, et al.</span> 
+
+\
+
+
+
+Conferences/Workshops {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+### Big Data in Biomedicine
+
+<span style="color:blue">EMBO Courses and Workshops (Poster Presentation)</span>
+
+New Delhi, India
+
+2018
+
+### Workshop on “Analysis of Genome Scale Data from Bulk and Single-Cell Sequencing”
+
+<span style="color:blue">NIBMG and EMBL-EBI</span>
+
+Kalyani, Kolkata
+
+2018
+
+### 9th International Meeting NextGen Genomics, Biology, BioInformatics and Technologies (NGBT)
+
+<span style="color:blue">Sci Genome research foundation Conference (Poster Presentation)</span>
+
+Mumbai, India
+
+2019
+
+### EMBL Australia Postgraduate Symposium (EAPS)
+
+<span style="color:blue">Oral presentation</span>
+
+Melbourne, Australia
+
+2019 
+
+### 47^th^ Annual Conference of the Indian Immunological Society
+
+N/A
+
+Online
+
+2021
+
+
+GitHub Projects {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### R code used in the NCoR1-TLR9-TLR3 Project.
+
+github link : https://github.com/sraghav-lab/NCoR1-and-SMRT-Project
+
+N/A
+
+2021
+
+
+### R code used in the NCoR1-SMRT-TLR9 Project.
+
+github link : https://github.com/sraghav-lab/NCoR1-TLR9-TLR3-Project
+
+N/A
+
+2021
+
+
+### BedSect Project.
+
+github link : https://github.com/sraghav-lab/Bedsect
+
+N/A
+
+2019
+
+
+Teaching Experience {data-icon=chalkboard-teacher} 
+--------------------------------------------------------------------------------
+
+### PhD course work.
+
+<span style="color:blue">Basics of NGS Data analysis (RNA-seq and ChIP-seq)</span>
+
+Bhubaneswar, India
+
+2017
+
+Media Coverage {data-icon=newspaper}
+--------------------------------------------------------------------------------
+### Our paper “Spatio-temporal dynamics of intra-host variability in SARS-CoV-2 genomes” covered in the [Vigyan Prasar](https://vigyanprasar.gov.in/isw/New-insights-into-COVID-19-RNA-variations-and-their-implications.html), [DECCAN HERALD](https://www.deccanherald.com/science-and-environment/research-identifies-covid-19-rna-variations-and-their-implications-1080125.html), [ThePrint](https://theprint.in/india/iit-jodhpur-researchers-identify-covid-19-rna-variations-and-their-implications/827214/), [ANI](https://www.aninews.in/news/national/general-news/iit-jodhpur-researchers-identify-covid-19-rna-variations-their-implications20220210161635/) and several other print media.
+
+N/A
+
+India
+
+2022
+
+Volunteering {data-icon=hands-helping}
+--------------------------------------------------------------------------------
+### Editor of College Magazine
+Worked as an editor of college magazine (Manipal University)
+
+Manipal
+
+2012
+
+### eLife Ambassador
+Volunteered for [anti-bullying initiative](https://github.com/Academic-Anti-Bullying/Introduction) 
+of eLife Ambassador program 
+
+Online
+
+2019
+
+### Participates in online bioinformatics forum
+[BioStars](https://www.biostars.org/u/19977/)
+
+online
+
+N/A
+
+### Helped in testing of quality control of the tool
+[ALPS](https://bioconductor.riken.jp/packages/3.12/bioc/vignettes/ALPS/inst/doc/ALPS-vignette.html)
+
+online
+
+N/A
+
+Academic References {data-icon=address-card} 
+--------------------------------------------------------------------------------
+### 
+
+N/A
+
+N/A
+
+::: concise
+* <font size="2">**Dr. Sunil Kumar Raghav (PhD Supervisor)**\
+<span style="color:blue">Scientist-F\
+Immunogenomics and Systems Biology Group\
+Institute of Life Sciences\
+Department of Biotechnology, Govt. of India\
+Email: sunilraghav@ils.res.in\
+Office: +91 674 2304310\
+Mobile: +91 9937468600</span></font>\
+\
+- <font size="2">**Dr. Punit Prasad**\
+<span style="color:blue">Scientist-E\
+Cancer Biology Group\
+Institute of Life Sciences\
+Department of Biotechnology, Govt. of India\
+Email: punit@ils.res.in\
+Office: +91 674 2304319</span></font>\
+\
+- <font size="2">**Dr. Bhawna Gupta (PhD Co-supervisor)**\
+<span style="color:blue">Assistant Professor\
+School of Biotechnology\
+Kalinga Institute of Industrial Technology (KIIT) University\
+Email: bhawna.gupta@kiitbiotech.ac.in</span></font>\
+\
+\
+\
+- <font size="2">**Dr. Anshuman Dixit**\
+<span style="color:blue">Scientist-E\
+Bioinformatics and Computational Biology Group\
+Institute of Life Sciences\
+Department of Biotechnology, Govt. of India\
+Email: anshuman@ils.res.in\
+Office: +91 674 2300137/2301476 ext. 281</span></font>\
+\
+:::
